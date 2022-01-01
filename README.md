@@ -1,2 +1,3 @@
-# golang
-Learning Go language
+# Learning Go language
+
+[Go language](https://go.dev)
