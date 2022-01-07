@@ -7,3 +7,6 @@ services:
     tty: true
     volumes:
       - ./src:/app
+    ports:
+      - "8090:8090" # 72_http-servers
+
