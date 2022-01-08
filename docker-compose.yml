@@ -2,11 +2,10 @@ version: '3'
 
 services:
   golang:
-    image: golang:1.15.7-alpine
+    build: ./docker/go
     working_dir: /app
     tty: true
     volumes:
       - ./src:/app
     ports:
-      - "8090:8090" # 72_http-servers
-
+      - "8090:8090" # Using the HTTP server section
